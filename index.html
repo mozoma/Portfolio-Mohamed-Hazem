@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mohamed Hazem Fahmy - AI & Data Analytics Engineer | Machine Learning Enthusiast" />
+  <title data-i18n="title">Mohamed Hazem Fahmy | AI & Data Analytics Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo" data-i18n="navName">Mohamed Hazem</a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-i18n="navHome">Home</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="navAbout">About</a></li>
+          <li><a href="#skills" class="nav-link" data-i18n="navSkills">Skills</a></li>
+          <li><a href="#education" class="nav-link" data-i18n="navEducation">Education</a></li>
+          <li><a href="#experience" class="nav-link" data-i18n="navExperience">Experience</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
+          <li><a href="#certifications" class="nav-link" data-i18n="navCertifications">Certifications</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="nav-actions">
+        <button type="button" class="icon-btn theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+        <button type="button" class="icon-btn lang-toggle" id="lang-toggle" aria-label="Toggle language">EN</button>
+        <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home / Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-bg-accent"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <p class="hero-greeting animate-fade-in" data-i18n="heroGreeting">Hi, I'm</p>
+          <h1 class="hero-title animate-slide-left">Mohamed Hazem Fahmy Ahmed Salem</h1>
+          <div class="hero-typewriter animate-fade-in">
+            <span data-i18n="heroImA">I'm a </span>
+            <span class="typewriter-text" data-i18n-type="heroRoles"></span>
+            <span class="typewriter-cursor">|</span>
+          </div>
+          <p class="hero-subtitle animate-fade-in" data-i18n="heroSubtitle">AI & Data Analytics Engineer | Machine Learning Enthusiast</p>
+          <div class="hero-buttons animate-slide-up">
+            <a href="https://drive.google.com/file/d/1xB8FZP4kImeCqgPVnworuCC8_ceKP9KX/view?usp=sharing" class="btn btn-primary" target="_blank" rel="noopener" data-i18n="btnDownloadCV">Download CV</a>
+            <a href="#projects" class="btn btn-outline" data-i18n="btnViewProjects">View Projects</a>
+            <a href="#contact" class="btn btn-outline" data-i18n="btnGetInTouch">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-image-wrap animate-slide-right">
+          <div class="hero-image-frame">
+            <img src="assets\images\zoma2.jpeg" alt="Mohamed Hazem Fahmy" class="hero-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about section" id="about">
+      <div class="container about-container">
+        <h2 class="section-title" data-i18n="aboutTitle">About Me</h2>
+        <div class="about-inner">
+          <div class="about-content">
+            <p class="about-text">
+              <span data-i18n="aboutP1">I specialize in </span><strong class="highlight">Data Analysis</strong><span data-i18n="aboutP1b"> with </span><strong class="highlight">Python</strong><span>, </span><strong class="highlight">Pandas</strong><span>, </span><strong class="highlight">NumPy</strong><span>, and </span><strong class="highlight">Power BI</strong><span data-i18n="aboutP1c">. I build </span><strong class="highlight">Machine Learning</strong><span data-i18n="aboutP2"> models using </span><strong class="highlight">Scikit-learn</strong><span data-i18n="aboutP2b"> and work on </span><strong class="highlight">AI</strong><span data-i18n="aboutP2c"> projects. I also have experience in </span><strong class="highlight">Embedded Systems</strong><span> (Arduino, sensors, microcontrollers). I use Python for tools &amp; utilities and build static sites with HTML &amp; CSS.</span>
+            </p>
+            <p class="about-text" data-i18n="aboutP3">I thrive on turning data into insights and building intelligent solutions that make a real impact. I'm always learning and contributing on GitHub.</p>
+          </div>
+          <div class="about-image-wrap">
+            <img src="assets\images\proa.jpeg" alt="Mohamed Hazem" class="about-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section-title" data-i18n="skillsTitle">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card" data-skill="Python">
+            <div class="skill-icon">🐍</div>
+            <span class="skill-name">Python</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="90"></span></div>
+            <span class="skill-tooltip">90%</span>
+          </div>
+          <div class="skill-card" data-skill="SQL">
+            <div class="skill-icon">🗄️</div>
+            <span class="skill-name">SQL</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="C">
+            <div class="skill-icon">⚙️</div>
+            <span class="skill-name">C</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="80"></span></div>
+            <span class="skill-tooltip">80%</span>
+          </div>
+          <div class="skill-card" data-skill="JavaScript">
+            <div class="skill-icon">📜</div>
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="75"></span></div>
+            <span class="skill-tooltip">75%</span>
+          </div>
+          <div class="skill-card" data-skill="Pandas">
+            <div class="skill-icon">🐼</div>
+            <span class="skill-name">Pandas</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="90"></span></div>
+            <span class="skill-tooltip">90%</span>
+          </div>
+          <div class="skill-card" data-skill="NumPy">
+            <div class="skill-icon">🔢</div>
+            <span class="skill-name">NumPy</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="88"></span></div>
+            <span class="skill-tooltip">88%</span>
+          </div>
+          <div class="skill-card" data-skill="Matplotlib">
+            <div class="skill-icon">📊</div>
+            <span class="skill-name">Matplotlib</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="Seaborn">
+            <div class="skill-icon">📈</div>
+            <span class="skill-name">Seaborn</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="Power BI">
+            <div class="skill-icon">📉</div>
+            <span class="skill-name">Power BI</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="82"></span></div>
+            <span class="skill-tooltip">82%</span>
+          </div>
+          <div class="skill-card" data-skill="Scikit-learn">
+            <div class="skill-icon">🤖</div>
+            <span class="skill-name">Scikit-learn</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="MySQL">
+            <div class="skill-icon">🗄️</div>
+            <span class="skill-name">MySQL</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="PostgreSQL">
+            <div class="skill-icon">🐘</div>
+            <span class="skill-name">PostgreSQL</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="82"></span></div>
+            <span class="skill-tooltip">82%</span>
+          </div>
+          <div class="skill-card" data-skill="SQLite">
+            <div class="skill-icon">📦</div>
+            <span class="skill-name">SQLite</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+          <div class="skill-card" data-skill="Excel">
+            <div class="skill-icon">📊</div>
+            <span class="skill-name">Excel</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="88"></span></div>
+            <span class="skill-tooltip">88%</span>
+          </div>
+          <div class="skill-card" data-skill="Git">
+            <div class="skill-icon">🔀</div>
+            <span class="skill-name">Git</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="88"></span></div>
+            <span class="skill-tooltip">88%</span>
+          </div>
+          <div class="skill-card" data-skill="Jupyter">
+            <div class="skill-icon">📓</div>
+            <span class="skill-name">Jupyter Notebook</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="92"></span></div>
+            <span class="skill-tooltip">92%</span>
+          </div>
+          <div class="skill-card" data-skill="Data Cleaning">
+            <div class="skill-icon">🧹</div>
+            <span class="skill-name">Data Cleaning</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="90"></span></div>
+            <span class="skill-tooltip">90%</span>
+          </div>
+          <div class="skill-card" data-skill="EDA">
+            <div class="skill-icon">🔍</div>
+            <span class="skill-name">EDA</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="88"></span></div>
+            <span class="skill-tooltip">88%</span>
+          </div>
+          <div class="skill-card" data-skill="Data Visualization">
+            <div class="skill-icon">📉</div>
+            <span class="skill-name">Data Visualization</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="88"></span></div>
+            <span class="skill-tooltip">88%</span>
+          </div>
+          <div class="skill-card" data-skill="Statistical Analysis">
+            <div class="skill-icon">📐</div>
+            <span class="skill-name">Statistical Analysis</span>
+            <div class="skill-progress"><span class="skill-bar" data-level="85"></span></div>
+            <span class="skill-tooltip">85%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education section" id="education">
+      <div class="container">
+        <h2 class="section-title" data-i18n="educationTitle">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker">🎓</div>
+            <div class="timeline-content">
+              <h3 class="timeline-title" data-i18n="eduDegree">Bachelor's in Software Engineering</h3>
+              <p class="timeline-org">Suez Canal University – Faculty of Computers and Information</p>
+              <p class="timeline-desc" data-i18n="eduMajor">Major: Software Engineering</p>
+              <p class="timeline-date" data-i18n="eduExpected">Expected 2027</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience section" id="experience">
+      <div class="container">
+        <h2 class="section-title" data-i18n="experienceTitle">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item exp-card">
+            <div class="timeline-marker">💼</div>
+            <div class="timeline-content">
+              <h3 class="timeline-title" data-i18n="exp1Title">Data Engineering Internship</h3>
+              <p class="timeline-org">ITI (Information Technology Institute)</p>
+              <p class="timeline-desc" data-i18n="exp1Desc">Hands-on data engineering, ETL pipelines, and data warehousing.</p>
+              <p class="timeline-date">2024 – 2025</p>
+            </div>
+          </div>
+          <div class="timeline-item exp-card">
+            <div class="timeline-marker">🤖</div>
+            <div class="timeline-content">
+              <h3 class="timeline-title" data-i18n="exp2Title">AI Training Program</h3>
+              <p class="timeline-org">Huawei</p>
+              <p class="timeline-desc" data-i18n="exp2Desc">AI and machine learning training, model development, and best practices.</p>
+              <p class="timeline-date">2024</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section-title" data-i18n="projectsTitle">Projects</h2>
+        <div class="project-filters">
+          <button type="button" class="filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
+          <button type="button" class="filter-btn" data-filter="data">Data Analysis</button>
+          <button type="button" class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/ITI_Sum2025_Dat-Engineering" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\dataen.png" alt="ITI Data Engineering" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">ITI Data Engineering Project</h3>
+              <div class="project-badges"><span>Python</span><span>ETL</span><span>Data Engineering</span></div>
+              <p class="project-desc" data-i18n="proj1Desc">Data engineering pipelines and ETL workflows from ITI internship.</p>
+              <a href="https://github.com/mozoma/ITI_Sum2025_Dat-Engineering" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/Ferns-and-Petals-Sales-Analysis.ipynb" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\fre.png" alt="Ferns and Petals Sales" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Ferns and Petals Sales Analysis</h3>
+              <div class="project-badges"><span>Python</span><span>Pandas</span><span>Jupyter</span></div>
+              <p class="project-desc">Sales data analysis and insights for Ferns and Petals dataset.</p>
+              <a href="https://github.com/mozoma/Ferns-and-Petals-Sales-Analysis.ipynb" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/fifa.py" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\World Cup Data Analysis.png" alt="World Cup Data Analysis" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">World Cup Data Analysis (fifa.py)</h3>
+              <div class="project-badges"><span>Python</span><span>Pandas</span><span>Data Viz</span></div>
+              <p class="project-desc">FIFA/World Cup dataset analysis and visualization.</p>
+              <a href="https://github.com/mozoma/fifa.py" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/reaitor.ipynb" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\Real Estate Data Analysis Project.png  " alt="Realtor Data Analysis" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Realtor Data Analysis</h3>
+              <div class="project-badges"><span>Python</span><span>Pandas</span><span>EDA</span></div>
+              <p class="project-desc">Real estate data analysis and insights.</p>
+              <a href="https://github.com/mozoma/reaitor.ipynb" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/Data_Visualization_Exercise" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\Data_Visualization_Exercise.png" alt="Data Visualization" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Data Visualization Exercises</h3>
+              <div class="project-badges"><span>Matplotlib</span><span>Seaborn</span><span>Python</span></div>
+              <p class="project-desc" data-i18n="proj3Desc">Visualization and statistical analysis of real-world datasets.</p>
+              <a href="https://github.com/mozoma/Data_Visualization_Exercise" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="data">
+            <a href="https://github.com/mozoma/numpy-exercises" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\numpy-exercises.png" alt="NumPy Exercises" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">NumPy Exercises</h3>
+              <div class="project-badges"><span>Python</span><span>NumPy</span></div>
+              <p class="project-desc">Numerical computing and array operations with NumPy.</p>
+              <a href="https://github.com/mozoma/numpy-exercises" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card" data-category="other">
+            <a href="https://github.com/mozoma/Student-Management-System" target="_blank" rel="noopener" class="project-thumb-link">
+              <div class="project-thumb"><img src="assets\images\images.png" alt="Student Management System" /></div>
+            </a>
+            <div class="project-body">
+              <h3 class="project-title">Student Management System (C)</h3>
+              <div class="project-badges"><span>C</span><span>Systems</span></div>
+              <p class="project-desc">Console-based student management system in C.</p>
+              <a href="https://github.com/mozoma/Student-Management-System" class="btn btn-sm" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="certifications section" id="certifications">
+      <div class="container">
+        <h2 class="section-title" data-i18n="certTitle">Certifications & Training</h2>
+        <p class="section-subtitle" data-i18n="certSubtitle">Professional certificates and training that reflect my journey in Data & AI.</p>
+        <p class="cert-drive-link-wrap">
+          <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="btn btn-outline cert-drive-link" target="_blank" rel="noopener" data-i18n="certDriveLink">View All Certificates (Google Drive)</a>
+        </p>
+        <div class="cert-grid">
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\hp.png" alt="HP LIFE" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Science & Analytics</h3>
+              <p class="cert-issuer">HP LIFE</p>
+              <p class="cert-date">Sep 2025</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\le.png" alt="LinkedIn Learning" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Analytics Foundations (Part 1 & 2)</h3>
+              <p class="cert-issuer">LinkedIn Learning</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\ma.png" alt="M3aarf" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Analysis</h3>
+              <p class="cert-issuer">M3aarf Platform</p>
+              <p class="cert-date">Jul 2025</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\iti.jpg" alt="ITI" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Engineering Internship</h3>
+              <p class="cert-issuer">ITI</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\it.png" alt="ITI SQL" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">SQL and Python for Data Analysis</h3>
+              <p class="cert-issuer">ITI</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\WhatsApp Image 2026-02-08 at 10.56.07 PM.jpeg" alt="MEC Academy" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Analysis Course</h3>
+              <p class="cert-issuer">MEC Academy</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\WhatsApp Image 2026-02-08 at 7.34.45 PM.jpeg" alt="Huawei" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">AI Training</h3>
+              <p class="cert-issuer">Huawei</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\pow.png" alt="Power BI" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Power BI Course</h3>
+              <p class="cert-issuer">M3aarf Platform</p>
+              <p class="cert-date">Oct 2025</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\EM.png" alt="DGES" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Embedded Systems with C Programming</h3>
+              <p class="cert-issuer">DGES</p>
+              <p class="cert-date">—</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-image"><img src="assets\images\S.png" alt="Cisco" /></div>
+            <div class="cert-body">
+              <h3 class="cert-title">Data Analytics Essentials</h3>
+              <p class="cert-issuer">Cisco Networking Academy</p>
+              <p class="cert-date">Oct 2025</p>
+              <a href="https://drive.google.com/drive/folders/12pjIRd-6DVtXTVUf452UK0-26HQCUeJU?usp=drive_link" class="cert-link" target="_blank" rel="noopener" data-i18n="certView">View Certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title" data-i18n="contactTitle">Get In Touch</h2>
+        <p class="section-subtitle" data-i18n="contactSubtitle">Reach out for opportunities, collaborations, or freelance work.</p>
+        <div class="contact-inner">
+          <div class="contact-info">
+            <a href="mailto:mohamedhazemsa30@gmail.com" class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>mohamedhazemsa30@gmail.com</span>
+            </a>
+            <a href="https://wa.me/201026570711" target="_blank" rel="noopener" class="contact-item">
+              <span class="contact-icon">📞</span>
+              <span>01026570711 | 01118284165</span>
+            </a>
+            <a href="https://www.linkedin.com/in/mohamed-hazem-salem-9b980b365" target="_blank" rel="noopener" class="contact-item">
+              <span class="contact-icon">💼</span>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/mozoma" target="_blank" rel="noopener" class="contact-item">
+              <span class="contact-icon">💻</span>
+              <span>GitHub</span>
+            </a>
+            <div class="contact-item">
+              <span class="contact-icon">📍</span>
+              <span>Minya Al-Qamh, Al Sharqia, Egypt</span>
+            </div>
+          </div>
+          <form class="contact-form" id="contact-form">
+            <input type="text" name="name" placeholder="Full Name" required data-i18n-placeholder="placeholderName" />
+            <input type="email" name="email" placeholder="Email Address" required data-i18n-placeholder="placeholderEmail" />
+            <input type="text" name="subject" placeholder="Subject" data-i18n-placeholder="placeholderSubject" />
+            <textarea name="message" rows="5" placeholder="Message" required data-i18n-placeholder="placeholderMessage"></textarea>
+            <button type="submit" class="btn btn-primary" data-i18n="btnSend">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 ENG. Mohamed Hazem Fahmy Ahmed Salem. <span data-i18n="footerBuilt">Built with passion for Data & AI</span> 💙</p>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
